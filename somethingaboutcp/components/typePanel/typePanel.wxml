@@ -1,0 +1,4 @@
+<!--component/typePanel/typePanel.wxml-->
+  <scroll-view scroll-x class="type_contain">
+    <view wx:for="{{typeList}}" data-num="{{index}}" class="{{num==index?'cur':''}}" wx:key="{{index}}" catchtap='_typeCheck'>{{item.goodsKind}}</view>
+  </scroll-view>

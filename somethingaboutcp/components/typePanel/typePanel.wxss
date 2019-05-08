@@ -1,0 +1,7 @@
+/* component/typePanel/typePanel.wxss */
+
+.type_contain{height: 78rpx;background: #fbfbfb;display: flex;white-space: nowrap; position: absolute;top: 108rpx;left: 0;}
+.type_contain view{height: 78rpx;line-height:78rpx;font-size:28rpx;color: #999999;padding:0 35rpx;display: inline-block;}
+
+.type_contain view.cur{color:#ef4454;}
+

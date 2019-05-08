@@ -1,0 +1,47 @@
+/* pages/home/home.wxss */
+
+.location {
+  margin-left: 19rpx;
+  margin-top: 24rpx;
+}
+
+.locationbar {
+  height: 24rpx;
+  width: 24rpx;
+}
+
+.location text {
+  color: #8f8f8f;
+  font-weight: bold;
+  font-size: 24rpx;
+}
+
+.locationtoggle {
+  height: 10rpx;
+  width: 18rpx;
+}
+
+.banner {
+  margin-top: 24rpx;
+  overflow: hidden;
+  height: 332rpx;
+  width: 750rpx;
+}
+
+.banner image {
+  height: 100%;
+}
+
+.typePanel {
+  height: 90rpx;
+  display: flex;
+}
+
+.typePanel view {
+  padding: 25rpx 0;
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+  color: #666666;
+}
+

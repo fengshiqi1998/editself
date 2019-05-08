@@ -1,0 +1,25 @@
+<!-- 地址选择 -->
+<view class='location'>
+  <image src='/assets/imgs/location.png' class='locationbar'></image>
+  <text>昌平区龙德紫金...</text>
+  <image src='/assets/imgs/locationSelect.png' class='locationtoggle'></image>
+</view>
+<!-- banner -->
+<view class='banner'>
+  <image src='/assets/imgs/banner.png'></image>  
+</view>
+<!-- 左右切换选项 -->
+<view class='typePanel'>
+  <view>欢乐下午茶</view>
+  <view>接龙信息</view>
+</view>
+<!-- 内容 -->
+<view class='content'>
+<!-- 左 -->
+  <view class='left'>
+    <scroll-view scroll-y>
+      <view wx:for="{{typeList}}" data-num="{{index}}" class="{{num==index?'cur':''}}" wx:key="{{index}}" catchtap='_typeCheck'>{{item.goodsKind}}</view>
+    </scroll-view>
+  </view>
+<!-- 右 -->
+</view>
