@@ -45,3 +45,96 @@
   color: #666666;
 }
 
+.content {
+  display: inline-flex;
+  width: 100%;
+}
+
+.left {
+  /* height: 89rpx; */
+  width: 172rpx;
+  height: 100%;
+}
+
+scroll-view {
+  height: 670rpx;
+
+}
+
+.left view {
+  padding: 33rpx 20rpx;
+  font-size: 28rpx;
+  color: #858685;
+  background-color: #f7f7f7;
+  border: 1px solid #eeeeee;
+}
+
+.right {
+  width: 580rpx;
+  height: 100%;
+  padding-left: 10rpx;
+}
+
+.item {
+  padding: 30rpx 0;
+  position: relative;
+  border-top: 1rpx solid #eeeeee;
+}
+
+.item .img {
+  width: 147rpx;
+  height: 133rpx;
+  overflow: hidden;
+}
+
+.item .img image {
+  height: 100%;
+  width: 100%;
+}
+
+.item .itemTit {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #2e2e2e;
+  position: absolute;
+  left: 168rpx;
+  top: 40rpx;
+}
+
+.item .itemDes {
+  font-size: 24rpx;
+  color: #8b8b8b;
+  position: absolute;
+  left: 180rpx;
+  top: 80rpx;
+}
+
+.item .discount {
+  color: #fd3c3e;
+  font-size: 28rpx;
+  position: absolute;
+  left: 180rpx;
+  top: 126rpx;
+}
+
+.item .price {
+  color: #8b8b8b;
+  font-size: 28rpx;
+  text-decoration: line-through;
+  position: absolute;
+  left: 280rpx;
+  top: 126rpx;
+}
+
+.item .count {
+  font-size: 24rpx;
+  color: #353535;
+}
+
+.item button {
+  width: 1rpx;
+  height: 42rpx;
+  border: 1rpx solid #dcdcdc;
+  border-radius: 7rpx;
+  outline: none;
+}

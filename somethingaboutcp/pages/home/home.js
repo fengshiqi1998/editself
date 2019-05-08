@@ -8,6 +8,41 @@ Page({
    */
   data: {
     typeList: [
+      '热销','特惠专场','好吃推荐','国产优选','进口严选','休闲干果','换新不换心','农产品类'
+    ],
+    goodList: [
+      {
+        id: 1,
+        img: '/assets/imgs/goods.png',
+        title: '【新品尝鲜】美早大樱桃 200g',
+        describe: '果中钻石，饱满爆汁',
+        price: '￥25.88',
+        discount: '￥12.99'
+      },
+      {
+        id: 2,
+        img: '/assets/imgs/goods.png',
+        title: '【新品尝鲜】美早大樱桃 200g',
+        describe: '果中钻石，饱满爆汁',
+        price: '￥25.88',
+        discount: '￥12.99'
+      },
+      {
+        id: 2,
+        img: '/assets/imgs/goods.png',
+        title: '【新品尝鲜】美早大樱桃 200g',
+        describe: '果中钻石，饱满爆汁',
+        price: '￥25.88',
+        discount: '￥12.99'
+      },
+      {
+        id: 3,
+        img: '/assets/imgs/goods.png',
+        title: '【新品尝鲜】美早大樱桃 200g',
+        describe: '果中钻石，饱满爆汁',
+        price: '￥25.88',
+        discount: '￥12.99'
+      },
       
     ]
   },

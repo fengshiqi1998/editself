@@ -16,10 +16,29 @@
 <!-- 内容 -->
 <view class='content'>
 <!-- 左 -->
-  <view class='left'>
+  <view class="left">
     <scroll-view scroll-y>
-      <view wx:for="{{typeList}}" data-num="{{index}}" class="{{num==index?'cur':''}}" wx:key="{{index}}" catchtap='_typeCheck'>{{item.goodsKind}}</view>
+      <view wx:for="{{typeList}}" wx:key="*this">
+        {{item}}
+      </view>
     </scroll-view>
   </view>
 <!-- 右 -->
+  <view class='right'>
+    <view class='title'></view>
+    <scroll-view scroll-y>
+      <view class="item" wx:for="{{goodList}}" wx:key="{{item.id}}">
+        <view class='img'>
+          <image src='{{item.img}}'></image>
+        </view>
+        <text class='itemTit'>{{item.title}}</text>
+        <text class='itemDes'>{{item.describe}}</text>
+        <text class='discount'>{{item.discount}}</text>
+        <text class='price'>{{item.price}}</text>
+        <button class='remove'>-</button>
+        <text class='count'>1</text>
+        <button class='add'>+</button>
+      </view>
+    </scroll-view>
+  </view>
 </view>
